@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="googletest"
+    errors="0" failures="1" hostname="" id="" package="googletest" skipped="0"
+    tests="1" time="5.405" timestamp="Wed, 12 Aug 2015 12:57:11 GMT">
+  
+    <testcase name="Demo test Google" time="5.405" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;ol#rso li:first-child&gt; contains text: &quot;Rembrandt - Wikipedia&quot;.">Testing if element &lt;ol#rso li:first-child&gt; contains text: &quot;Rembrandt - Wikipedia&quot;.: Expected &quot;Rembrandt - Wikipedia&quot; but got: &quot;&quot;
+    at Object.&lt;anonymous&gt; (d:\Node_Project\Nightwatch\node_modules\nightwatch\lib\core\assertion.js:105:19)
+    at Object.&lt;anonymous&gt; (d:\Node_Project\Nightwatch\node_modules\nightwatch\lib\api\element-commands.js:354:20)
+    at HttpRequest.&lt;anonymous&gt; (d:\Node_Project\Nightwatch\node_modules\nightwatch\lib\index.js:311:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (d:\Node_Project\Nightwatch\node_modules\nightwatch\lib\index.js:334:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (d:\Node_Project\Nightwatch\node_modules\nightwatch\lib\http\request.js:148:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
